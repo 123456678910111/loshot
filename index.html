@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    </head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="master.css">
+
+<title>Java Script</title>
+<div class="crent">
+<div class="head">
+    <h2>crubs</h2>
+    <p>probuct management system</p>
+</div>
+
+
+<div class="inputs">
+    <input  placeholder="title" type="text" id="title">
+<div class="price">
+<input onkeyup="getTotal()"  type="number" id="price" placeholder="price">
+<input  onkeyup="getTotal()" type="number" id="taxet" placeholder="taxet">
+<input  onkeyup="getTotal()" type="number" id="ads" placeholder="ads">
+<input  onkeyup="getTotal()" type="number" id="discount" placeholder="discount">
+<fatery id="total">1234</fatery>
+</div>
+<div class="outputs">
+
+</div>
+<input placeholder="count" type="number" id="count" >
+<input placeholder="category" type="text" id="category">
+<button id="sumbit">Create</button>
+</div>
+
+<div class="onput">
+<div>
+<input onkeyup= "searchData(this.value)"  type="text" id="search" placeholder="search">
+<div class="btnsearch">
+<button onclick="getsearchMood(this.id)" id="sear chtitle">Search By Title</button>
+<button onclick="getsearchMood(this.id)"  id="search category">Search By Category</button>
+</div>
+<table>
+    <tr>
+    <th>id</th>
+    <th>title</th>
+    <th>price</th>
+    <th>taxes</th>
+    <th>ads</th>
+    <th>discount</th>
+    <th>total</th>
+    <th>category</th>
+    <th>update</th>
+    <th>delete</th>
+    </tr>
+<div id="deleteAll">
+    
+</div>
+    <tbody id="tbody">
+
+    </tbody>
+</table>
+</div>
+
+</div>
+
+
+ <script src="man.js"></script>
+
+</body>
+</html>

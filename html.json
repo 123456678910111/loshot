@@ -1,0 +1,11 @@
+{
+    "string" : "Fatery",
+    "Number" : 100,
+    "object" : {
+    "we" : "rt",
+    "wer" :  "qw"
+},
+"array" : ["Html , Css , js"],
+"boolent" : true,
+"null" : null
+}
